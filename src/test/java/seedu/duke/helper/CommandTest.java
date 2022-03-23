@@ -39,7 +39,7 @@ class CommandTest {
     public void addPatientTest() {
         String userInput = "S1234567A, John Doe, 23, M, 10 Baker Street, 1999-12-31, 2021-02-15";
         command.addPatient(patients,userInput);
-        assertEquals("HalpMi: The patient above has been added.\r\n", outContent.toString());
+        assertEquals("HalpMi: The patient above has been added.\n", outContent.toString());
     }
 
     @Test
